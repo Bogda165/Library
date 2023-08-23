@@ -11,6 +11,7 @@
 		887F26F02A966AB500CA0C9C /* Publication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887F26EE2A966AB500CA0C9C /* Publication.cpp */; };
 		887F26F32A966D1700CA0C9C /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887F26F12A966D1700CA0C9C /* Book.cpp */; };
 		887F26F62A9670B000CA0C9C /* Magazine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887F26F42A9670B000CA0C9C /* Magazine.cpp */; };
+		887F26F92A96742900CA0C9C /* Library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887F26F72A96742900CA0C9C /* Library.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		887F26F22A966D1700CA0C9C /* Book.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Book.hpp; sourceTree = "<group>"; };
 		887F26F42A9670B000CA0C9C /* Magazine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Magazine.cpp; sourceTree = "<group>"; };
 		887F26F52A9670B000CA0C9C /* Magazine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Magazine.hpp; sourceTree = "<group>"; };
+		887F26F72A96742900CA0C9C /* Library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Library.cpp; sourceTree = "<group>"; };
+		887F26F82A96742900CA0C9C /* Library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Library.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				887F26F22A966D1700CA0C9C /* Book.hpp */,
 				887F26F42A9670B000CA0C9C /* Magazine.cpp */,
 				887F26F52A9670B000CA0C9C /* Magazine.hpp */,
+				887F26F72A96742900CA0C9C /* Library.cpp */,
+				887F26F82A96742900CA0C9C /* Library.hpp */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887F26F92A96742900CA0C9C /* Library.cpp in Sources */,
 				887F26F32A966D1700CA0C9C /* Book.cpp in Sources */,
 				887F26F62A9670B000CA0C9C /* Magazine.cpp in Sources */,
 				887F26F02A966AB500CA0C9C /* Publication.cpp in Sources */,
