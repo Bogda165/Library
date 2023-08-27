@@ -1,5 +1,5 @@
 #pragma once
-#include "PUblication.hpp"
+#include "Publication.hpp"
 
 class Book: public Publication{
     string summary;
@@ -9,6 +9,9 @@ public:
     
     void setSummary(string _summary);
     string getSummary()const;
+    virtual string getType()const override{
+        return "Publication";
+    }
     
     virtual void show()const override;
 };

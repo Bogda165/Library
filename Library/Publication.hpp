@@ -25,6 +25,9 @@ public:
     string getAuthro()const;
     int getDate()const;
     
+    virtual string getType()const{
+        return "Publication";
+    }
     
     virtual void show()const = 0;
     

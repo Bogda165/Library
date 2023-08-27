@@ -12,6 +12,8 @@ public:
     void del(int index);
     
     std::vector<string> get()const;
-    
+    virtual string getType()const override{
+        return "Mgazine";
+    }
     virtual void show()const override;
 };

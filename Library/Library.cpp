@@ -33,7 +33,7 @@ Publication* Library::find_n(string _name)const{
 
 void Library::sort_name(){
     sort(inventory.begin(), inventory.end(), [](Publication* obj1, Publication* obj2){
-        return obj1->getName() > obj2->getName();
+        return obj1->getName() < obj2->getName();
     });
 }
 
@@ -45,7 +45,7 @@ void Library::sort_date(){
 
 void Library::sort_author(){
     sort(inventory.begin(), inventory.end(), [](Publication* obj1, Publication* obj2){
-        return obj1->getAuthro() > obj2->getAuthro();
+        return obj1->getAuthro() < obj2->getAuthro();
     });
 }
 
