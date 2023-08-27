@@ -27,8 +27,14 @@ std::vector<string> Magazine::get()const{
 }
 
 void Magazine::show()const{
+    if (author.length() == 0){
+        throw (new BookExeption(getAuthro()));
+    }else if (name.length() == 0){
+        throw(new BookExeption(getName()));
+    }
     cout << "----------Magazine----------\n";
     cout << "   Name : " << name << endl;
+
     cout << "   Author's name : " << author << endl;
     cout << "   Creation year : " << date << endl;
     cout << "   List of articles : " << endl << endl;

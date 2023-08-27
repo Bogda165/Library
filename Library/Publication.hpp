@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "PublicationExeptions.hpp"
 
 using std::cout;
 using std::endl;

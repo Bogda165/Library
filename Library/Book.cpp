@@ -24,6 +24,11 @@ string Book::getSummary()const{
 }
 
 void Book::show()const{
+    if (author.length() == 0){
+        throw (new BookExeption(getAuthro()));
+    }else if (name.length() == 0){
+        throw(new BookExeption(getName()));
+    }
     cout << "------------Book------------\n";
     cout << "   Name : " << name << endl;
     cout << "   Author's name : " << author << endl;

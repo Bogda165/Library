@@ -8,6 +8,9 @@ Publication::Publication(){
 Publication::Publication(string _name, string _author, int _date){
     name = _name;
     author = _author;
+    if(_date <= 0){
+        throw(new YearExeption(std::to_string(_date)));
+    }
     date = _date;
 }
 
